@@ -1,0 +1,12 @@
+{
+    "virtues" : {
+        "domain" : "virtue.local",
+        "windows_virtue_config": "windows.json",
+        "virtue_directory" : "/home/ubuntu/go/src/virtue_kube/deployments", 
+        "pvc_directory" : "/home/ubuntu/go/src/virtue_kube/pvcs", 
+        "temp_pkcs8_directory" : "/etc/pki/temp",
+        "public_key_directory" : "/etc/pki/virtue",
+        "hostname": "172.20.41.192"
+    },
+    "api" : "https://api.virtuecluster.com"
+}
